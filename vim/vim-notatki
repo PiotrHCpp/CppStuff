@@ -2,6 +2,8 @@ j k h l     -   sterowanie kursorem
 x           -   usuwanie znaków jak del
 i           -   wstawianie tekstu przed kursorem
 a           -   dodawanie tekstu na końcu linii
+o           -   otwiera nowa linie ponizej kursora w trybe insert
+O           -   otwiera nowa linie powyzej kursora w trybie insert
 
 dw          -   usuwanie tekstu do końca wyrazu od kursora
 de          -   usuwanie tekstu do końca wyrazu zostawiając spacje
@@ -43,6 +45,51 @@ wpisz polecenie / oraz szukane wyrażenie
 polecenie ? szuka w odwrotnym kierunku
 później n szuka pojnownie N wraca
 CTRL+O CTRL+I
+
+WYKONYWANIE POLECEŃ POWŁOKI SPOD VIM
+:!
+
+WYBRANIE TEKSTU DO ZAPISU:
+v, zaznacz tekst
+potem :w nazwa_pliku
+sprawdzenie :! ls, :! cat ./nazwa_pliku
+
+WSTAWIENIE TEKSTU Z PLIKU:
+:r TEST wstawienie tekstu z pliku
+
+DOKAŃCZANIE WYRAZÓW:
+e           -   przeskakiwanie co wyraz w przód
+a           -   append (dodaj tekst)
+
+INNA WERSJA REPLACE:
+R           -   nadpisuje więcej niż jeden znak w tekscie
+
+KOPIOWANIE I WKLEJANIE:
+v - zaznaczamy tekst
+y - kopiujemy do schowka
+p - wkleja 
+
+USTAWIENIA OPCJI:
+:set ic     albo :set noic
+:set hls    albo :set nohls
+:set is     albo :set nois
+
+POMOC W VIM
+:help
+:help w
+:help c_CTRL-D
+:help insert-index
+:help user-manual
+
+przełączamy się między oknami CTRL+W
+zamknięcie jednego z okien :q
+
+
+
+
+
+
+
 
 
 

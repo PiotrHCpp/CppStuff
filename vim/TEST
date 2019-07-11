@@ -1,0 +1,24 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		    Lekcja 5.3.: WYBRANIE TEKSTU DO ZAPISU
+
+
+	  ** By zachować część pliku, wpisz  v ruch :w NAZWA_PLIKU **
+
+  1. Przenieś kursor do tego wiersza.
+
+  2. Wciśnij  v  i przenieś kursor do punktu 5. Zauważ, że tekst został
+     podświetlony.
+
+  3. Wciśnij znak  : . Na dole ekranu pojawi się  :'<,'> .
+
+  4. Wpisz  w TEST , gdzie TEST to nazwa pliku, który jeszcze nie istnieje.
+     Upewnij się, że widzisz  :'<,'>w TEST zanim wciśniesz Enter.
+
+  5. Vim zapisze wybrane linie do pliku TEST. Użyj  :!dir  lub  :!ls , żeby to
+     zobaczyć. Jeszcze go nie usuwaj! Użyjemy go w następnej lekcji.
+
+UWAGA: Wciśnięcie  v  zaczyna tryb Wizualny. Możesz poruszać kursorem, by
+       zmienić rozmiary zaznaczenia. Możesz też użyć operatora, by zrobić coś
+       z tekstem. Na przykład  d  usuwa tekst.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
